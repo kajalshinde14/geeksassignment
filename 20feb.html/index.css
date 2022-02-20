@@ -1,0 +1,162 @@
+.parent{
+    border: black;
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+    margin: auto;
+}
+div {
+    border: solid 1px black;
+}
+.first_element{
+    background-color: rgb(114, 253, 114);
+    border: black;
+    width: 100%;
+    margin: 5px;
+    padding: 10px;
+}
+.second_element{
+    background-color: yellow;
+    width: 90%;
+    padding: 5px;
+}
+.third_element{
+    background-color: yellow;
+    width: 50%;
+    margin: 5px;
+    padding: 5px;
+}
+.body{
+    border: black;
+    background-color: yellow;
+    width: 150px;
+    margin: auto;
+    padding: 5px;
+    margin: 5px auto;
+    margin-top: 5px;
+    margin-right: auto;
+    margin-bottom: 5px;
+    margin-left: auto;
+}
+.first_child{
+    background-color: rgb(117, 217, 250);
+    width: 100%;
+    padding-left:5px ;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+.second_child_container {
+    background-color: lightgreen;
+    width: 100%;
+    margin: 10px auto;
+}
+.wrapper {
+    background-color: yellow;
+    width: fit-content;
+    padding: 5px;
+    margin: 5px auto;
+}
+.third_child_container {
+    background-color: lightgray;
+    width: 95%;
+    margin: auto;
+}
+.container1 {
+    background-color: yellow;
+    width: fit-content;
+    padding: 5px;
+    margin: 5px auto;
+}
+.header_container {
+    background-color: pink;
+    width: 95%;
+    margin: 5px auto;
+}
+.header {
+    width: fit-content;
+    background-color: yellow;
+    padding: 5px;
+    margin: 5px auto;
+}
+.navigation {
+    width: fit-content;
+    margin: 5px auto;
+    padding: 5px;
+}
+.navigation_container {
+    background-color: rgb(238, 192, 236);
+    padding: 3px;
+    width: 93%;
+    margin: 5px auto;
+}
+.containerOf_container2 {
+    background-color: rgb(202, 229, 240);
+    width: 93%;
+    margin: 5px auto;
+}
+.container2 {
+    width: 95%;
+    margin: 5px auto 10px;
+    background-color: yellow;
+}
+.span_container {
+    width: fit-content;
+    flex-wrap: wrap;
+    display: flex;
+    margin: auto;
+    border: none;
+}
+.inside_div {
+    background-color: rgb(248, 244, 244);
+    padding: 10px;
+    margin: 5px;
+}
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.footer_container {
+    background-color: wheat;
+    width: 93%;
+    margin: 5px auto;
+}
+.footer {
+    background-color: yellow;
+    width: 80%;
+    margin: 5px auto;
+    padding: 5px;
+}
+.container1 {
+    background-color: yellow;
+    width: fit-content;
+    padding: 5px;
+    margin: 5px auto;
+}
+.wrapper {
+    background-color: yellow;
+    width: fit-content;
+    padding: 5px;
+    margin: 5px auto;
+}
+
+.econd_child_container {
+    background-color: lightgreen;
+    width: 100%;
+    margin: 10px auto;
+}
+span {
+    padding: 5px;
+    background-color: yellow;
+    border: 1px solid black;
+    margin: 5px;
+}
+
