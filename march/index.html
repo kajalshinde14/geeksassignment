@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="product-box">
+                <div class="all-images">
+                <div class="small-images">
+                    <img src="images/a1.jpg" width="400px" height="400px" onclick="clickimg(this)" >
+                    <img src="images/a2.jpg" width="400px" height="400px" onclick="clickimg(this)" >
+                    <img src="images/a3.jpg" width="400px" height="400px" onclick="clickimg(this)" >
+                    <img src="images/a4.jpg" width="400px" height="400px" onclick="clickimg(this)" >
+                </div>
+                <div class="main-images">
+                    <img src="images/a1.jpg" width="400px" height="400px" id="imagebox">
+                </div>
+            </div>
+            </div>
+            <div class="text">
+                <div class="content">
+                    <p class="brand"> Brand : Apple</p>
+                    <h2 class="ram"> APPLE iPhone 12(White, 64 GB)</h2>
+                    <div class="review">
+                        <span>(4.6)</span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <div class="price-box">
+                        <p class="price">&#8377;77,900</p>
+                        <strike>&#8377;89,900></strike>
+                    </div>
+                    <p>size : <select name="size" >
+                        <option value="select colour">select colour</option>
+                        <option value="black">black</option>
+                        <option value="blue">blue</option>
+                        <option value="green">green</option>
+                        <option value="purple">purple</option>
+                    </select></p>
+                    <p>Quantity <input type="text" value="1"></p>
+                    <button>
+                        <span class="fa fa-shopping-cart"></span>
+                        Add to cart
+                    </button>
+                    <button class="buy">
+                        <span class="fa fa-shopping-cart"></span>
+                        Buy Now
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="wrapper">
+            <div class="product-box">
+                <div class="all-images">
+                <div class="small-images">
+                    <img src="images/a1.jpg" width="400px" height="400px" onclick="clickimg(this)" >
+                    <img src="images/a2.jpg" width="400px" height="400px" onclick="clickimg(this)" >
+                    <img src="images/a3.jpg" width="400px" height="400px" onclick="clickimg(this)" >
+                    <img src="images/a4.jpg" width="400px" height="400px" onclick="clickimg(this)" >
+                </div>
+                <div class="main-images">
+                    <img src="images/a1.jpg" width="400px" height="400px" id="imagebox">
+                </div>
+            </div>
+            </div>
+            <div class="text">
+                <div class="content">
+                    <p class="brand"> Brand : Apple</p>
+                    <h2 class="ram"> APPLE iPhone 12(White, 64 GB)</h2>
+                    <div class="review">
+                        <span>(4.6)</span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <div class="price-box">
+                        <p class="price">&#8377;77,900</p>
+                        <strike>&#8377;89,900></strike>
+                    </div>
+                    <p>size : <select name="size" >
+                        <option value="select colour">select colour</option>
+                        <option value="black">black</option>
+                        <option value="blue">blue</option>
+                        <option value="green">green</option>
+                        <option value="purple">purple</option>
+                    </select></p>
+                    <p>Quantity <input type="text" value="1"></p>
+                    <button>
+                        <span class="fa fa-shopping-cart"></span>
+                        Add to cart
+                    </button>
+                    <button class="buy">
+                        <span class="fa fa-shopping-cart"></span>
+                        Buy Now
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+        function clickimg(smallImages){
+            var fullImg = document.getElementById("imagebox")
+            fullImg.src = smallImg.src
+        }
+ </script>
+</body>
+</html>
