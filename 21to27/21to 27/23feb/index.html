@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--link here the fontawesome icons online cdn-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>login & registration form</title>
+</head>
+<body>
+    <div class="main">
+        <div class="card"> 
+            <div class="card-title">
+                <h3>User <span id="action_title">login</span></h3>
+            </div>
+            <div class="card-body">
+              <div class="card-body-top">
+                <button id="login" class="btn" onclick="login_btn()" required="" placeholder="Enter your email">login</button>
+                <button id="registration" class="btn" onclick="register_btn()" required="" placeholder="Enter your password">registration</button><br><br>
+                <div class="bottom_line"></div>
+              </div>
+              <div class="card-body-bottom">
+                  <form id="login_form">
+                      <input type="email" class="input-field" required="" placeholder="enter email"><br><br>
+                      <input type="password" class="input-field" required="" placeholder="enter password"><br><br>
+                      <br>
+                      <input type="submit" class="submit-field" value="login"><br><br>
+                  </form>
+                  <form id="register_form">
+                    <input type="text" class="input-field" required="" placeholder="enter your name"><br><br>
+                    <input type="email" class="input-field" required=""  placeholder="enter your email"><br><br>
+                    <input type="password" class="input-field" required=""  placeholder="enter your password"><br><br>
+                    <br>
+                    <input type="submit" class="submit-field" value="register">
+                </form>
+                <div class="clear"></div>
+              </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

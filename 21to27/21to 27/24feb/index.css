@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Shizuru&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Shizuru&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Praise&family=Shizuru&family=ZCOOL+QingKe+HuangYou&display=swap");
+body {
+  margin: 0%;
+}
+nav {
+  margin-top: -18px;
+  background-color: rgb(153, 153, 233);
+  height: 70px;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  float: right;
+  margin-left: 70px;
+}
+
+nav ul li {
+  margin: 5px;
+  padding: 10px;
+  font-family: "bold";
+  font-family: "bold";
+}
+
+.logo {
+  float: left;
+}
+
+.logo li {
+  /* font-size: 25px; */
+  padding: 0px;
+  margin: 0%;
+  font-size: 60px;
+  font-family: bold;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu {
+  margin-right: 150px;
+}
+
+#home {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: center;
+  justify-content: space-around;
+  margin-top: 17px;
+  background-color: rgb(9, 106, 231);
+}
+
+#social_media_links {
+  text-align: left;
+  width: 500px;
+  padding: 150px;
+}
+
+i {
+  font-size: 25px;
+  margin-top: 10px;
+  color: white;
+}
+
+#social_media_links a {
+  border: rgb(3, 3, 3) 1px solid;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+h1 {
+  color: wheat;
+  margin-top: 50px;
+  font-size: 50px;
+  font-family: sans-serif;
+}
+
+#social_media_links p {
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  font-size: 20px;
+}
+
+button {
+  width: 150px;
+  height: 40px;
+  border: 1px solid rgb(25, 3, 66);
+  background-color: transparent;
+  color: white;
+  font-size: 15px;
+  margin: 50px 0px 50px 0px;
+  border-radius: 20px;
+}

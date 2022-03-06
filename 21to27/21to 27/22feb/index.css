@@ -1,0 +1,62 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background: rgb(106, 106, 250);
+}
+.container{
+    height: 500px;
+    width: 300px;
+    border: 5px black;
+    margin: auto;
+    background-color: rgb(241, 147, 147);
+    border: none;
+    border-radius: 10px;
+}
+.cal{
+    padding: 15px;
+
+}
+/*display the calculator*/
+#screen{
+    width: 270px;
+    height: 50px;
+    border-radius: 10px;
+    border: .1px solid black;
+}
+/*look for buttons*/
+.btnlook{
+    width: 55px;
+    height: 55px;
+    border-radius: 30px;
+    font-size: 20px;
+    margin: 5px;
+    margin-top: 20px;
+    border: none;
+}
+/*special id defined for correct button*/
+#correct{
+    width: 120px;
+
+}
+/*look arithmetic oprator +,=,-,*.*/
+.OPratorlook{
+    width: 55px;
+    height: 55px;
+    border-radius: 30px;
+    float:right;
+    margin-top: 20px;
+    border: none;
+}
+/*spl character plus defined*/
+#plus{
+    height: 135px;
+}
+/* headinfg of project*/
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: sans-serif;
+    color: rgb(7, 58, 58);
+    font-weight: 900;
+    text-decoration: underline;
+}
