@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <script
+      src="https://kit.fontawesome.com/6419bd10ad.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Instagram</title>
+  </head>
+<body>
+    <body>
+        <div id="container">
+          <div id="home">
+            <nav>
+              <ul id="logo">
+                Instagram
+              </ul>
+              <ul>
+                <i class="fa-brands fa-facebook-messenger"></i>
+              </ul>
+              <ul>
+                <i class="fa-solid fa-circle-plus"></i>
+              </ul>
+            </nav>
+            <section>
+              <div id="post">
+                <ul>
+                  <li>
+                    <img id="cartoon_image" src="./images/cartoon.jpg" alt="" />
+                  </li>
+                  <li>_dynamic_gamer_sp</li>
+                </ul>
+                <img id="img" src="./images/a4.jpg" alt="" />
+                <div id="features">
+                  <ul>
+                    <li><i style="color: red" class="fa-solid fa-heart"></i></li>
+                    <li><i class="fa-solid fa-comment"></i></li>
+                    <li><i class="fa-solid fa-location-arrow"></i></li>
+                  </ul>
+                  <p style="color: wheat">14,374 Likes</p>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div id="search_bar" class="searching_bar">
+            <input type="search" placeholder="Search" />
+          </div>
+          <div id="reels" class="reels_hide">
+            <h1>Reels</h1>
+          </div>
+          <div id="notifications" class="notifications_style_hide">
+            <h1>Activity</h1>
+            <img src="./images/a6.jpg" alt="" />
+          </div>
+          <div id="profile" class="profile_hide">
+            <img src="./images/a1.jpg" alt="" />
+          </div>
+          <footer>
+            <ul
+              style="
+                display: flex;
+                margin-top: 0;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-around;
+              "
+            >
+              <li onclick="switchingPages('home')">
+                <i class="fa-solid fa-house"></i>
+              </li>
+              <li onclick="switchingPages('search')">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </li>
+              <li onclick="switchingPages('reels')">
+                <i class="fa-solid fa-circle-play"></i>
+              </li>
+              <li onclick="switchingPages('notifications')">
+                <i class="fa-solid fa-heart"></i>
+              </li>
+              <li onclick="switchingPages('profile')">
+                <img id="cartoon_image" src="./images/cartoon.jpg" alt="" />
+              </li>
+            </ul>
+          </footer>
+        </div>
+        <script src="index.js"></script>
+      </body>
+    </html>
+</body>
+</html>

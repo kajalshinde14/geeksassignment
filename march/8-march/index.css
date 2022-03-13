@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    position: relative;
+    min-height: 100vh;
+    background-color: rgb(57, 214, 83);
+  }
+  
+  .container h1 {
+     background: linear-gradient( to bottom, #68EACC 0%,#497BE8)100%;
+    font-size: 50px;
+    font-family: bold;
+    font-weight: normal;
+    padding: 15px;
+    color: rgb(8, 8, 8);
+    text-align: center;
+    text-transform: capitalize;
+  }
+  
+  .container .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  .container .image-container .image {
+    height: 250px;
+    width: 350px;
+    box-shadow: 0 5px 15px rgb(0, 0, 0, 0.1);
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .container .image-container .image img {
+    height: 100%;
+    width: 100%;
+    transition: 0.2s linear;
+  }
+  
+  .container .image-container .image:hover img {
+    transform: scale(1.1);
+  }
+  
+  .container .popup-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    display: none;
+  }
+  
+  .container .popup-image span {
+    position: absolute;
+    top: 5%;
+    width: 50px;
+    text-align: center;
+    right: 48%;
+    background-color: rgba(44, 43, 43, 0.9);
+    border-radius: 50%;
+    font-size: bolder;
+    color: #fff;
+    font-size: 50px;
+    cursor: pointer;
+    z-index: 100;
+  }
+  
+  .container .popup-image img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #fff;
+    border-radius: 20px;
+    height: 700px;
+    width: 750px;
+    object-fit: cover;
+  }

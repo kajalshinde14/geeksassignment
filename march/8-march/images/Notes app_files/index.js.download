@@ -1,0 +1,22 @@
+let submit=document.querySelector(".submit");
+let title=document.getElementById("text");
+let Desc=document.getElementById("Desc");
+console.log(text,Desc);
+let notesElem=document.querySelector(".notes")
+submit.addEventListener("click",(e)=>{
+    e.preventDefault();
+    addNotes()
+
+});
+function addNotes(){
+    let titleVal=title.value;
+    let DescVal=Desc.value;
+
+let card=document.createElement("div");
+card.classList.add("card");
+card.innerHTML=
+<h3>${titleVal}</h3>
+<p>${DescVal}</p>
+<button class="del"> delete</button>
+notesElem.appendChild(card);
+}

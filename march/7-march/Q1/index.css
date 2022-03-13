@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient( to bottom, #68EACC 0%,#497BE8)100%;
+}
+.wrapper{
+    margin: 12px auto;
+    max-width: 400px;
+    width: 100%;
+    background-color:white;
+    border-radius: 5px;
+   padding: 25px;
+
+}
+.wrapper .h1{
+    font-size: 30px;
+    font-weight: 600;
+
+
+}
+.wrapper .inputfield{
+    display: flex;
+    height: 45px;
+    width: 100%;
+    margin: 20px 0;
+}
+.inputfield input{
+    width: 85%;
+    height: 100%;
+    border: 1px solid #ccc;
+    font-size: 17px;
+    border-radius: 3px;
+    padding-left: 15px;
+}
+.inputfield button{
+    width: 70px;
+    height: 100%;
+   background-color: #3fa82a;
+   border: none;
+   color: #fff;
+   font-size: 25px;
+   border-radius: 3px;
+   margin-left: 5px;
+}
+
+.wrapper .todolist{
+    max-height: 250px;
+    overflow: hidden;
+
+}
+
+.todolist li:hover span{
+    right: 0px;
+}

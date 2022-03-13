@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+    background-color: black;
+    width: 200px;
+    margin: auto;
+    padding: 50px;
+    color: white;
+    font-size: 50px;
+  }
+
+body{
+    background-color: rgb(116, 116, 226);
+}
